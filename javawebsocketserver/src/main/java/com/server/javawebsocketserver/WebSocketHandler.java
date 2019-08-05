@@ -12,23 +12,23 @@ public class WebSocketHandler extends AbstractWebSocketHandler {
         String msg = String.valueOf(message.getPayload());
         switch(msg){
             case("1"):
-                System.out.println("Cow button was pressed");
-                session.sendMessage(new TextMessage("Moooo"));
+                System.out.println("Dog button was pressed");
+                session.sendMessage(new TextMessage("Woooof"));
                 break;
 
             case("2"):
-                System.out.println("Dog button was pressed");
-                session.sendMessage(new TextMessage("Wooof"));
-                break;
-
-            case("3"):
                 System.out.println("Cat button was pressed");
                 session.sendMessage(new TextMessage("Meooow"));
                 break;
 
+            case("3"):
+                System.out.println("Pig button was pressed");
+                session.sendMessage(new TextMessage("Bork Bork"));
+                break;
+
             case("4"):
-                System.out.println("Frog button was pressed");
-                session.sendMessage(new TextMessage("ribbit"));
+                System.out.println("Fox button was pressed");
+                session.sendMessage(new TextMessage("Fraka-kaka-kaka"));
                 break;
         }
     }

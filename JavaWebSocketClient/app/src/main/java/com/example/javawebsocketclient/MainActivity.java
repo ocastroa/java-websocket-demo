@@ -92,19 +92,19 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Websocket", "Button was clicked");
 
         switch(view.getId()){
-            case(R.id.cowButton):
+            case(R.id.dogButton):
                 webSocketClient.send("1");
                 break;
 
-            case(R.id.dogButton):
+            case(R.id.catButton):
                 webSocketClient.send("2");
                 break;
 
-            case(R.id.catButton):
+            case(R.id.pigButton):
                 webSocketClient.send("3");
                 break;
 
-            case(R.id.frogButton):
+            case(R.id.foxButton):
                 webSocketClient.send("4");
                 break;
         }
