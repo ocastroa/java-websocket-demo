@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
   // Initialize PubNub
   public void initPubNub(){
     PNConfiguration pnConfiguration = new PNConfiguration();
-    pnConfiguration.setPublishKey("pub-c-b6e9fa8d-0405-4118-b554-1fbb3220419d");
-    pnConfiguration.setSubscribeKey("sub-c-13930f86-b7c6-11e9-a8b1-ae35b44b0130");
+    pnConfiguration.setPublishKey("ENTER_YOUR_PUB_KEY");
+    pnConfiguration.setSubscribeKey("ENTER_YOUR_SUB_KEY");
     pnConfiguration.setSecure(true);
     pubnub = new PubNub(pnConfiguration);
 
