@@ -2,7 +2,6 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -13,7 +12,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
-        android:text="Animal Sounds"
+        android:text="@string/title"
         android:textColor="@android:color/black"
         android:textSize="42sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,6 +46,7 @@
         android:layout_height="131dp"
         android:layout_marginTop="152dp"
         android:layout_marginEnd="28dp"
+        android:contentDescription="@string/cat_pic"
         android:scaleType="fitCenter"
         android:src="@drawable/cat"
         android:onClick="sendMessage"
@@ -62,6 +62,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:scaleType="fitCenter"
+        android:contentDescription="@string/pig_pic"
         android:src="@drawable/pig"
         android:onClick="sendMessage"
         app:layout_constraintBottom_toBottomOf="@+id/foxButton"
@@ -79,6 +80,7 @@
         android:layout_marginEnd="28dp"
         android:onClick="sendMessage"
         android:scaleType="fitCenter"
+        android:contentDescription="@string/fox_pic"
         android:src="@drawable/fox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/catButton" />
@@ -89,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="80dp"
         android:textColor="@android:color/black"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">JavaWebSocketClient</string>
     <string name="action_settings">Settings</string>
+    <string name="title">Animal Sounds</string>
     <string name="dog_pic">Image of a dog</string>
-</resources>
+    <string name="cat_pic">Image of a cat</string>
+    <string name="pig_pic">Image of a pig</string>
+    <string name="fox_pic">Image of a fox</string></resources>
