@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
       @Override
       public void onTextReceived(String s) {
-        Log.i("WebSocket", "Received message");
+        Log.i("WebSocket", "Message received");
         final String message = s;
         runOnUiThread(new Runnable() {
           @Override
@@ -56,19 +56,13 @@ public class MainActivity extends AppCompatActivity {
       }
 
       @Override
-      public void onBinaryReceived(byte[] data) {
-        System.out.println("onBinaryReceived");
-      }
+      public void onBinaryReceived(byte[] data) {}
 
       @Override
-      public void onPingReceived(byte[] data) {
-        System.out.println("onPingReceived");
-      }
+      public void onPingReceived(byte[] data) {}
 
       @Override
-      public void onPongReceived(byte[] data) {
-        System.out.println("onPongReceived");
-      }
+      public void onPongReceived(byte[] data) {}
 
       @Override
       public void onException(Exception e) {
@@ -77,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
       @Override
       public void onCloseReceived() {
-        Log.i("WebSocket", "Closed ");
+        Log.i("WebSocket", "Connection Closed ");
         System.out.println("onCloseReceived");
       }
     };
