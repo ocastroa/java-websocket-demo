@@ -1,5 +1,5 @@
 
-# Java WebSocket Programming with Android and Spring Boot
+# Java WebSocket Programming | Android and Spring Boot
 
 A simple demo on how to set up an Android Client that connects to a WebSocket server using [Spring Boot](https://spring.io/projects/spring-boot). For the client-to-client demo, we use [PubNub's Android SDK](https://www.pubnub.com/docs/android-java/pubnub-java-sdk) to securely and reliably send data between clients without setting up a server.
 
@@ -23,7 +23,7 @@ gradle bootRun
 5) Run the client on the Android emulator. Once the app opens, click any of the four buttons and see the response from the server in the text below the buttons.
 
 <p align="center">
-  <img src="./media/client_server_screenshot.png" alt="Screenshot of client-to-server demo" width="730" height="350" />
+  <img src="./media/client_server_screenshot.png" alt="Screenshot of client-to-server demo" width="730" height="385" />
 </p>
 
 6) To run the client-to-client demo, open the directory **PubNubJavaClient** in Android Studio. Go to MainActivity.java and replace 'ENTER_YOUR_PUB_KEY' and 'ENTER_YOUR_SUB_KEY' with the keys you got from Step 1.
