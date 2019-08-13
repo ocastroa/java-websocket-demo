@@ -37,8 +37,8 @@ gradle bootRun
 
 ## Build Your Own WebSocket Demo with Android and Spring Boot
 
-To learn more about this project or if you want to build this project from scratch, check out the tutorial (coming soon).
+To learn more about this project or if you want to build this project from scratch, check out the tutorial.
 
-  <a href="https://www.pubnub.com/blog/?devrel_gh=java-websocket-demo">
+  <a href="https://www.pubnub.com/blog/java-websocket-programming-with-android-and-spring-boot/?devrel_gh=java-websocket-demo">
     <img alt="PubNub Blog" src="https://i.imgur.com/aJ927CO.png" width=260 height=98/>
   </a>
